@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="scw-user" />
+        <module name="scw-common" />
+        <module name="scw-order" />
+        <module name="scw-register" />
+        <module name="scw-project" />
+        <module name="scw-webui" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="scw-order" options="-parameters" />
+      <module name="scw-project" options="-parameters" />
+      <module name="scw-register" options="-parameters" />
+      <module name="scw-user" options="-parameters" />
+      <module name="scw-webui" options="-parameters" />
+    </option>
+  </component>
+</project>

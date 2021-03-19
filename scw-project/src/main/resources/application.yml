@@ -1,0 +1,30 @@
+spring:
+  application:
+    name: SCW-PROJECT
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://192.168.20.128/atcrowdfinding?useSSL=false&useUnicode=true&characterEncoding=UTF-8
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+  redis:
+    host: 192.168.20.128
+    port: 6379
+
+mybatis:
+  config-location: classpath:/mybatis/mybatis-config.xml
+  mapper-locations: classpath:/mybatis/mapper/*.xml
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8462/eureka/
+  instance:
+    appname: SCW-PROJECT
+    prefer-ip-address: true
+
+server:
+  port: 7010
+
+
+

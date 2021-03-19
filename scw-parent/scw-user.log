@@ -1,0 +1,200 @@
+2021-02-01 22:38:30.476  INFO 3308 --- [main] com.yuu.scw.ScwUserApplication           : Starting ScwUserApplication using Java 1.8.0_141 on DESKTOP-7DGDQHN with PID 3308 (D:\IDEAhome\scw\scw-user\target\classes started by zsy in D:\IDEAhome\scw\scw-parent)
+2021-02-01 22:38:30.479 DEBUG 3308 --- [main] com.yuu.scw.ScwUserApplication           : Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-02-01 22:38:30.479  INFO 3308 --- [main] com.yuu.scw.ScwUserApplication           : No active profile set, falling back to default profiles: default
+2021-02-01 22:38:30.932  INFO 3308 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-02-01 22:38:30.934  INFO 3308 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-02-01 22:38:30.947  INFO 3308 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2021-02-01 22:38:31.049  WARN 3308 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.yuu.scw.user.mapper]' package. Please check your configuration.
+2021-02-01 22:38:31.092  INFO 3308 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=d373fca7-30c7-30a7-b4fb-cdf1179e1e08
+2021-02-01 22:38:31.320  INFO 3308 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7000 (http)
+2021-02-01 22:38:31.326  INFO 3308 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-01 22:38:31.327  INFO 3308 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-01 22:38:31.410  INFO 3308 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-02-01 22:38:31.411  INFO 3308 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 895 ms
+2021-02-01 22:38:31.663  INFO 3308 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-01 22:38:33.347  INFO 3308 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2021-02-01 22:38:33.372  INFO 3308 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2021-02-01 22:38:34.686  INFO 3308 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2021-02-01 22:38:34.746  WARN 3308 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+2021-02-01 22:38:34.799  INFO 3308 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2021-02-01 22:38:34.825  INFO 3308 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2021-02-01 22:38:34.828  INFO 3308 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-02-01 22:38:35.011  INFO 3308 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2021-02-01 22:38:35.011  INFO 3308 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2021-02-01 22:38:35.011  INFO 3308 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2021-02-01 22:38:35.011  INFO 3308 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2021-02-01 22:38:35.011  INFO 3308 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2021-02-01 22:38:35.011  INFO 3308 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2021-02-01 22:38:35.011  INFO 3308 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2021-02-01 22:38:35.150  INFO 3308 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2021-02-01 22:38:35.152  INFO 3308 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2021-02-01 22:38:35.154  INFO 3308 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-02-01 22:38:35.158  INFO 3308 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1612190315157 with initial instances count: 1
+2021-02-01 22:38:35.161  INFO 3308 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application SCW-USER with eureka with status UP
+2021-02-01 22:38:35.161  INFO 3308 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1612190315161, current=UP, previous=STARTING]
+2021-02-01 22:38:35.163  INFO 3308 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SCW-USER/localhost:SCW-USER:7000: registering service...
+2021-02-01 22:38:35.226  INFO 3308 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7000 (http) with context path ''
+2021-02-01 22:38:35.227  INFO 3308 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 7000
+2021-02-01 22:38:35.254  INFO 3308 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SCW-USER/localhost:SCW-USER:7000 - registration status: 204
+2021-02-01 22:38:36.533  INFO 3308 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2021-02-01 22:38:36.541  INFO 3308 --- [main] com.yuu.scw.ScwUserApplication           : Started ScwUserApplication in 7.735 seconds (JVM running for 8.374)
+2021-02-01 22:41:57.204  INFO 14200 --- [main] com.yuu.scw.ScwUserApplication           : Starting ScwUserApplication using Java 1.8.0_141 on DESKTOP-7DGDQHN with PID 14200 (D:\IDEAhome\scw\scw-user\target\classes started by zsy in D:\IDEAhome\scw\scw-parent)
+2021-02-01 22:41:57.205 DEBUG 14200 --- [main] com.yuu.scw.ScwUserApplication           : Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-02-01 22:41:57.206  INFO 14200 --- [main] com.yuu.scw.ScwUserApplication           : No active profile set, falling back to default profiles: default
+2021-02-01 22:41:57.657  INFO 14200 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-02-01 22:41:57.658  INFO 14200 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-02-01 22:41:57.670  INFO 14200 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2021-02-01 22:41:57.771  WARN 14200 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.yuu.scw.user.mapper]' package. Please check your configuration.
+2021-02-01 22:41:57.813  INFO 14200 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=d373fca7-30c7-30a7-b4fb-cdf1179e1e08
+2021-02-01 22:41:58.041  INFO 14200 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7000 (http)
+2021-02-01 22:41:58.047  INFO 14200 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-01 22:41:58.047  INFO 14200 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-01 22:41:58.133  INFO 14200 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-02-01 22:41:58.134  INFO 14200 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 890 ms
+2021-02-01 22:41:58.386  INFO 14200 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-01 22:42:00.064  INFO 14200 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2021-02-01 22:42:00.089  INFO 14200 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2021-02-01 22:42:01.397  INFO 14200 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2021-02-01 22:42:01.440  WARN 14200 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+2021-02-01 22:42:01.493  INFO 14200 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2021-02-01 22:42:01.519  INFO 14200 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2021-02-01 22:42:01.523  INFO 14200 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-02-01 22:42:01.691  INFO 14200 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2021-02-01 22:42:01.691  INFO 14200 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2021-02-01 22:42:01.691  INFO 14200 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2021-02-01 22:42:01.691  INFO 14200 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2021-02-01 22:42:01.691  INFO 14200 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2021-02-01 22:42:01.691  INFO 14200 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2021-02-01 22:42:01.692  INFO 14200 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2021-02-01 22:42:01.814  INFO 14200 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2021-02-01 22:42:01.816  INFO 14200 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2021-02-01 22:42:01.818  INFO 14200 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-02-01 22:42:01.822  INFO 14200 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1612190521821 with initial instances count: 1
+2021-02-01 22:42:01.824  INFO 14200 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application SCW-USER with eureka with status UP
+2021-02-01 22:42:01.824  INFO 14200 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1612190521824, current=UP, previous=STARTING]
+2021-02-01 22:42:01.825  INFO 14200 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SCW-USER/localhost:SCW-USER:7000: registering service...
+2021-02-01 22:42:01.845  INFO 14200 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7000 (http) with context path ''
+2021-02-01 22:42:01.845  INFO 14200 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 7000
+2021-02-01 22:42:01.868  INFO 14200 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SCW-USER/localhost:SCW-USER:7000 - registration status: 204
+2021-02-01 22:42:03.145  INFO 14200 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2021-02-01 22:42:03.152  INFO 14200 --- [main] com.yuu.scw.ScwUserApplication           : Started ScwUserApplication in 7.651 seconds (JVM running for 8.333)
+2021-02-01 22:42:41.787  INFO 13636 --- [main] com.yuu.scw.ScwUserApplication           : Starting ScwUserApplication using Java 1.8.0_141 on DESKTOP-7DGDQHN with PID 13636 (D:\IDEAhome\scw\scw-user\target\classes started by zsy in D:\IDEAhome\scw\scw-parent)
+2021-02-01 22:42:41.788 DEBUG 13636 --- [main] com.yuu.scw.ScwUserApplication           : Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-02-01 22:42:41.789  INFO 13636 --- [main] com.yuu.scw.ScwUserApplication           : No active profile set, falling back to default profiles: default
+2021-02-01 22:42:42.248  INFO 13636 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-02-01 22:42:42.250  INFO 13636 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-02-01 22:42:42.263  INFO 13636 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2021-02-01 22:42:42.365  WARN 13636 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.yuu.scw.user.mapper]' package. Please check your configuration.
+2021-02-01 22:42:42.409  INFO 13636 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=d373fca7-30c7-30a7-b4fb-cdf1179e1e08
+2021-02-01 22:42:42.638  INFO 13636 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7000 (http)
+2021-02-01 22:42:42.644  INFO 13636 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-01 22:42:42.645  INFO 13636 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-01 22:42:42.737  INFO 13636 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-02-01 22:42:42.738  INFO 13636 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 907 ms
+2021-02-01 22:42:42.989  INFO 13636 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-01 22:42:44.674  INFO 13636 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2021-02-01 22:42:44.699  INFO 13636 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2021-02-01 22:42:46.000  INFO 13636 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2021-02-01 22:42:46.034  WARN 13636 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+2021-02-01 22:42:46.081  INFO 13636 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2021-02-01 22:42:46.105  INFO 13636 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2021-02-01 22:42:46.109  INFO 13636 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-02-01 22:42:46.275  INFO 13636 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2021-02-01 22:42:46.276  INFO 13636 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2021-02-01 22:42:46.276  INFO 13636 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2021-02-01 22:42:46.276  INFO 13636 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2021-02-01 22:42:46.276  INFO 13636 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2021-02-01 22:42:46.276  INFO 13636 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2021-02-01 22:42:46.277  INFO 13636 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2021-02-01 22:42:46.399  INFO 13636 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2021-02-01 22:42:46.401  INFO 13636 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2021-02-01 22:42:46.403  INFO 13636 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-02-01 22:42:46.406  INFO 13636 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1612190566406 with initial instances count: 1
+2021-02-01 22:42:46.408  INFO 13636 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application SCW-USER with eureka with status UP
+2021-02-01 22:42:46.408  INFO 13636 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1612190566408, current=UP, previous=STARTING]
+2021-02-01 22:42:46.410  INFO 13636 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SCW-USER/localhost:SCW-USER:7000: registering service...
+2021-02-01 22:42:46.429  INFO 13636 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7000 (http) with context path ''
+2021-02-01 22:42:46.429  INFO 13636 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 7000
+2021-02-01 22:42:46.458  INFO 13636 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SCW-USER/localhost:SCW-USER:7000 - registration status: 204
+2021-02-01 22:42:47.715  INFO 13636 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2021-02-01 22:42:47.724  INFO 13636 --- [main] com.yuu.scw.ScwUserApplication           : Started ScwUserApplication in 7.665 seconds (JVM running for 8.33)
+2021-02-01 22:43:17.837  INFO 12872 --- [main] com.yuu.scw.ScwUserApplication           : Starting ScwUserApplication using Java 1.8.0_141 on DESKTOP-7DGDQHN with PID 12872 (D:\IDEAhome\scw\scw-user\target\classes started by zsy in D:\IDEAhome\scw\scw-parent)
+2021-02-01 22:43:17.839 DEBUG 12872 --- [main] com.yuu.scw.ScwUserApplication           : Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-02-01 22:43:17.839  INFO 12872 --- [main] com.yuu.scw.ScwUserApplication           : No active profile set, falling back to default profiles: default
+2021-02-01 22:43:18.291  INFO 12872 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-02-01 22:43:18.293  INFO 12872 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-02-01 22:43:18.305  INFO 12872 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2021-02-01 22:43:18.408  WARN 12872 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.yuu.scw.user.mapper]' package. Please check your configuration.
+2021-02-01 22:43:18.451  INFO 12872 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=d373fca7-30c7-30a7-b4fb-cdf1179e1e08
+2021-02-01 22:43:18.689  INFO 12872 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7000 (http)
+2021-02-01 22:43:18.696  INFO 12872 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-01 22:43:18.696  INFO 12872 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-01 22:43:18.791  INFO 12872 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-02-01 22:43:18.791  INFO 12872 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 913 ms
+2021-02-01 22:43:19.051  INFO 12872 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-01 22:43:20.744  INFO 12872 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2021-02-01 22:43:20.770  INFO 12872 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2021-02-01 22:43:22.116  INFO 12872 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2021-02-01 22:43:22.160  WARN 12872 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+2021-02-01 22:43:22.206  INFO 12872 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2021-02-01 22:43:22.231  INFO 12872 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2021-02-01 22:43:22.234  INFO 12872 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-02-01 22:43:22.403  INFO 12872 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2021-02-01 22:43:22.403  INFO 12872 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2021-02-01 22:43:22.403  INFO 12872 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2021-02-01 22:43:22.403  INFO 12872 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2021-02-01 22:43:22.404  INFO 12872 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2021-02-01 22:43:22.404  INFO 12872 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2021-02-01 22:43:22.404  INFO 12872 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2021-02-01 22:43:22.529  INFO 12872 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2021-02-01 22:43:22.531  INFO 12872 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2021-02-01 22:43:22.533  INFO 12872 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-02-01 22:43:22.536  INFO 12872 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1612190602536 with initial instances count: 1
+2021-02-01 22:43:22.538  INFO 12872 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application SCW-USER with eureka with status UP
+2021-02-01 22:43:22.538  INFO 12872 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1612190602538, current=UP, previous=STARTING]
+2021-02-01 22:43:22.540  INFO 12872 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SCW-USER/localhost:SCW-USER:7000: registering service...
+2021-02-01 22:43:22.558  INFO 12872 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7000 (http) with context path ''
+2021-02-01 22:43:22.559  INFO 12872 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 7000
+2021-02-01 22:43:22.586  INFO 12872 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SCW-USER/localhost:SCW-USER:7000 - registration status: 204
+2021-02-01 22:43:23.848  INFO 12872 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2021-02-01 22:43:23.855  INFO 12872 --- [main] com.yuu.scw.ScwUserApplication           : Started ScwUserApplication in 7.699 seconds (JVM running for 8.348)
+2021-02-01 22:49:07.911  INFO 10280 --- [main] com.yuu.scw.ScwUserApplication           : Starting ScwUserApplication using Java 1.8.0_141 on DESKTOP-7DGDQHN with PID 10280 (D:\IDEAhome\scw\scw-user\target\classes started by zsy in D:\IDEAhome\scw\scw-parent)
+2021-02-01 22:49:07.913 DEBUG 10280 --- [main] com.yuu.scw.ScwUserApplication           : Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-02-01 22:49:07.913  INFO 10280 --- [main] com.yuu.scw.ScwUserApplication           : No active profile set, falling back to default profiles: default
+2021-02-01 22:49:08.369  INFO 10280 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-02-01 22:49:08.370  INFO 10280 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-02-01 22:49:08.383  INFO 10280 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2021-02-01 22:49:08.491  WARN 10280 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.yuu.scw.user.mapper]' package. Please check your configuration.
+2021-02-01 22:49:08.537  INFO 10280 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=d373fca7-30c7-30a7-b4fb-cdf1179e1e08
+2021-02-01 22:49:08.786  INFO 10280 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7000 (http)
+2021-02-01 22:49:08.795  INFO 10280 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-01 22:49:08.795  INFO 10280 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-01 22:49:08.879  INFO 10280 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-02-01 22:49:08.879  INFO 10280 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 927 ms
+2021-02-01 22:49:09.144  INFO 10280 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-01 22:49:10.871  INFO 10280 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2021-02-01 22:49:10.896  INFO 10280 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2021-02-01 22:49:12.212  INFO 10280 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2021-02-01 22:49:12.248  WARN 10280 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+2021-02-01 22:49:12.301  INFO 10280 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2021-02-01 22:49:12.330  INFO 10280 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2021-02-01 22:49:12.334  INFO 10280 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-02-01 22:49:12.498  INFO 10280 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2021-02-01 22:49:12.499  INFO 10280 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2021-02-01 22:49:12.499  INFO 10280 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2021-02-01 22:49:12.499  INFO 10280 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2021-02-01 22:49:12.500  INFO 10280 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2021-02-01 22:49:12.500  INFO 10280 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2021-02-01 22:49:12.500  INFO 10280 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2021-02-01 22:49:12.623  INFO 10280 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2021-02-01 22:49:12.626  INFO 10280 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2021-02-01 22:49:12.627  INFO 10280 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-02-01 22:49:12.631  INFO 10280 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1612190952630 with initial instances count: 1
+2021-02-01 22:49:12.632  INFO 10280 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application SCW-USER with eureka with status UP
+2021-02-01 22:49:12.633  INFO 10280 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1612190952633, current=UP, previous=STARTING]
+2021-02-01 22:49:12.635  INFO 10280 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SCW-USER/localhost:SCW-USER:7000: registering service...
+2021-02-01 22:49:12.654  INFO 10280 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7000 (http) with context path ''
+2021-02-01 22:49:12.655  INFO 10280 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 7000
+2021-02-01 22:49:12.688  INFO 10280 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SCW-USER/localhost:SCW-USER:7000 - registration status: 204
+2021-02-01 22:49:13.944  INFO 10280 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2021-02-01 22:49:13.951  INFO 10280 --- [main] com.yuu.scw.ScwUserApplication           : Started ScwUserApplication in 7.759 seconds (JVM running for 8.427)
